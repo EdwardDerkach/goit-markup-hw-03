@@ -1,0 +1,298 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+/*____________HEADER/FOOTER___________*/
+
+.header {
+}
+
+.navigation {
+}
+
+.logo-header {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.color-web {
+  color: #4d5ae5;
+}
+
+.navigation-list {
+}
+
+.navigation-list-item {
+}
+
+.navigation-list-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #4d5ae5;
+}
+
+.contacts-list {
+}
+
+.contacts-list-item {
+}
+
+.contacts-list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: #4d5ae5;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/*____________HERO___________*/
+
+.hero {
+  width: 1440px;
+  height: 603px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+/*____________FEATURE___________*/
+
+.feature {
+}
+
+.feature-list {
+}
+
+.feature-list-item {
+}
+
+.feature-item-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feature-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*____________PRODUCT-COMPANY___________*/
+
+.product-company {
+}
+
+.product-company-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.product-company-list {
+}
+
+.product-company-item {
+}
+
+/*____________TEAM___________*/
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list {
+}
+
+.team-list-item {
+}
+
+.team-list-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*____________FILTER___________*/
+
+.section {
+}
+
+.project-title {
+}
+
+.filter-list {
+}
+
+.filter-list-item {
+}
+
+.filter-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/*____________PROJECT-CARD___________*/
+
+.project-card-list {
+}
+
+.project-card-list-item {
+}
+
+.project-card-list-link {
+}
+
+.project-card-list-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.project-card-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
