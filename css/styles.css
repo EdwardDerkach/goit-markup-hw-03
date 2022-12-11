@@ -302,6 +302,10 @@ a {
   margin-right: 24px;
 }
 
+.team-list-content {
+  padding: 32px 0;
+}
+
 .team-list-title {
   font-style: normal;
   font-weight: 600;
@@ -310,7 +314,6 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding-top: 32px;
 }
 
 .team-list-position {
