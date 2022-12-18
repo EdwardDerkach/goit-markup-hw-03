@@ -176,7 +176,7 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
-  line-height: 1.7;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-color);
@@ -253,7 +253,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-text-color);
-  margin-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .product-company-list {
@@ -396,21 +396,23 @@ a {
 }
 
 .project-card-list-link {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.project-card-list-link:focus,
+.project-card-list-link:hover {
+  background: var(--main-color);
+  border: 0.5px solid var(--second-color);
+  border-top: none;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-card-content {
   background: var(--main-color);
   border: 0.5px solid var(--second-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   padding: 32px 0 32px 16px;
-}
-
-.project-card-content:hover,
-.project-card-content:focus {
-  background: var(--main-color);
-  border: 0.5px solid var(--second-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-top: none;
 }
 
 .project-card-list-title {
@@ -420,7 +422,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  margin-top: 32px;
 }
 
 .project-card-list-text {
